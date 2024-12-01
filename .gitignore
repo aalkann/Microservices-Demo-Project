@@ -1,0 +1,29 @@
+# dependencies
+my-client-app/node_modules
+my-client-app/.pnp
+my-client-app/.pnp.js
+
+# testing
+my-client-app/coverage
+
+# production
+my-client-app/build
+
+# misc
+my-client-app/.DS_Store
+my-client-app/.env.local
+my-client-app/.env.development.local
+my-client-app/.env.test.local
+my-client-app/.env.production.local
+
+my-client-app/npm-debug.log*
+my-client-app/yarn-debug.log*
+my-client-app/yarn-error.log*
+
+*/target
+
+*/volume-data
+/not_included
+/product-service/data
+/inventory-service/mysql
+/order-service/mysql
